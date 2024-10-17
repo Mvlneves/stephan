@@ -1,0 +1,1080 @@
+@font-face {
+    font-family: 'amsipro-ultra';
+    src: url('../fonts/amsipro-ultra-webfont.eot');
+    src: url('../fonts/amsipro-ultra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/amsipro-ultra-webfont.woff2') format('woff2'),
+         url('../fonts/amsipro-ultra-webfont.woff') format('woff'),
+         url('../fonts/amsipro-ultra-webfont.ttf') format('truetype'),
+         url('../fonts/amsipro-ultra-webfont.svg#amsipro-ultrauploaded_file') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'amsipro-xlight';
+    src: url('../fonts/amsipro-xlight-webfont.eot');
+    src: url('../fonts/amsipro-xlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/amsipro-xlight-webfont.woff2') format('woff2'),
+         url('../fonts/amsipro-xlight-webfont.woff') format('woff'),
+         url('../fonts/amsipro-xlight-webfont.ttf') format('truetype'),
+         url('../fonts/amsipro-xlight-webfont.svg#amsipro-xlightuploaded_file') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avant Garde Book BT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avant Garde Book BT'), url('../fonts/AVGARDN_2.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avant Garde Demi BT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avant Garde Demi BT'), url('../fonts/AVGARDD_2.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avant Garde Demi Oblique BT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avant Garde Demi Oblique BT'), url('../fonts/AVGARDDO_2.woff') format('woff');
+}
+
+header{
+    padding: 10px 0 0;
+    background: #cc3737;
+}
+
+header p{
+    font-family: 'Avant Garde Book BT';
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header p strong{
+    color: #fff002;
+}
+
+footer{
+    background: #000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer a,
+footer a:hover{
+    color: #0ed6d3;
+}
+
+footer p{
+    font-family: 'Avant Garde Book BT';
+    color: #FFF;
+    font-size: 30px; 
+    margin-bottom: 0px;   
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.item-canais{
+    text-align: right;
+}
+
+.item-canais p{
+    font-family: 'amsipro-ultra';
+    color: #FFF;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: bottom;
+    letter-spacing: 0.5px;
+}
+
+.item-canais a{
+    margin-left: 10px;
+}
+
+#top{
+    background: url(../images/bg-top.jpg) no-repeat 0 0 #000;
+    background-size: cover;
+}
+
+#top iframe{
+    border:  3px solid #0ed6d3;
+    margin-top: 50px;
+}
+
+#top h1{
+    font-family: 'amsipro-ultra';
+    color: #FFF;
+    font-size: 30px;
+    margin-top: 90px;
+}
+
+#top h1 .number{
+    font-size: 120px;
+    display: inline-block;
+    margin-top: -10px;    
+}
+
+#top h1 .passos{
+    vertical-align: top;
+    font-size: 55px;
+    display: inline-block;
+    width: 240px;
+    color: #0ed6d3;
+    line-height: 48px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+#top video{
+    position: absolute;
+    width: 670px;
+}
+
+#top p.aprtop{
+    color: #FFF;
+    margin: 20px 80px 30px 80px;
+    font-family: 'amsipro-xlight';
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#top .preco-destaque{
+    margin: 50px 0 0 120px;
+}
+
+#top .cta-ebook{
+    margin-left: 50px;
+}
+
+#frase{
+    background: #07ffeb;
+    margin-top: -80px;
+    position: relative;
+}
+
+#frase #content-frase{
+    background: url(../images/Aristoteles.jpg) no-repeat right bottom transparent;
+}
+
+#frase #content-frase p.texto-frase{
+    font-family: 'Avant Garde Demi BT';
+    font-size: 30px;   
+    color: #000; 
+    padding: 40px 0 20px;
+    display: inline-block;
+    width: 70%;
+    line-height: 30px;
+}
+
+#frase #content-frase p.texto-frase span{
+    color: #07ffeb;
+    background: #000;
+    font-size: 45px;
+    margin-top: 5px;
+    display: inline-block;
+    padding: 5px;
+}
+
+#frase #content-frase img{
+    margin-right: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+#frase #content-frase p.nome{
+    font-family: auto;
+    font-size: 45px;
+    font-weight: 100;
+    color: #000;
+    text-transform: capitalize;
+    text-align: right;
+    width: 65%;
+    margin-bottom: 50px;
+}
+
+#all-ebook{
+    background: #000;
+    padding: 60px 0;
+}
+
+#all-ebook p.text-top{
+    text-align: center;
+    font-size: 25px;
+    color: #FFF;
+    font-family: 'Avant Garde Book BT';
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#all-ebook img.img-ebook{
+    max-width: 100%;
+    margin-top: -100px;
+}
+
+#all-ebook .item{
+    margin: 10px 0 10px 0;
+}
+
+#all-ebook .item span{
+    font-family: 'Avant Garde Demi BT';
+    font-size: 48px;
+    display: inline-block;
+    color: #07ffeb;
+}
+
+#all-ebook .item p{
+    font-family: 'Avant Garde Book BT';
+    color: #FFF;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+#all-ebook .promo-ebook{
+    text-align: center;
+    margin-top: -175px;
+}
+
+#all-ebook .promo-ebook p.text-melhore{
+    font-family: 'Avant Garde Book BT';
+    color: #FFF;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: 0px;
+}
+
+#all-ebook .promo-ebook p.text-mude{
+    font-family: 'Avant Garde Demi BT';
+    color: #07ffeb;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+#all-ebook .promo-ebook p.text-tudo{
+    font-family: 'Avant Garde Demi BT';
+    color: #FFF;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#all-ebook .promo-ebook .preco-destaque{
+    margin: 35px 0 10px;
+}
+
+#all-ebook .promo-ebook p.text-atencao{
+    font-family: 'Avant Garde Book BT';
+    color: #FFF;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 0px;
+}
+
+#all-ebook .promo-ebook p.text-atencao span{
+    color: #F00;
+}
+
+#all-ebook .more-ebook{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#all-ebook .more-ebook .text-mais{
+    margin-top: 50px;
+    color: #000;
+    background: #07ffeb;
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 30px;
+    font-family: 'amsipro-ultra';
+    margin-bottom: 0;
+}
+
+#all-ebook .more-ebook .text-comprando{
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'Avant Garde Demi BT';
+    margin-bottom: 0;
+}
+
+#all-ebook .more-ebook .text-voce{
+    color: #07ffeb;
+    font-size: 30px;
+    font-family: 'Avant Garde Demi BT';
+    margin-bottom: -10px;
+}
+
+#all-ebook .more-ebook .text-voce span{
+    color: #000;
+    background: #07ffeb;
+    font-size: 30px;
+    padding: 0 5px;
+    font-family: 'amsipro-ultra';
+    margin-bottom: 0;
+}
+
+#all-ebook .more-ebook .text-ferramentas{
+    color: #FFF;
+    font-size: 45px;
+    font-family: 'Avant Garde Demi BT';
+    margin-bottom: 0;
+}
+
+#all-ebook .init-itens{
+    margin-top: 50px;
+}
+
+#all-ebook .item-ferramenta .bg-ferramenta{
+    background: url(../images/bg-ebooks.png) no-repeat 25px -35px transparent;
+    background-size: 100%;
+    padding: 35px;
+}
+
+#all-ebook .item-ferramenta .bg-ferramenta-segundo{
+    background: url(../images/bg-ebooks.png) no-repeat -30px -40px transparent;
+    background-size: 100%;
+    padding: 50px 35px 35px 100px;
+}
+
+#all-ebook .item-ferramenta .titulo-item{
+    color: #07ffeb;
+    font-size: 30px;
+    font-family: 'Avant Garde Demi BT';
+    margin-bottom: 0;    
+}
+
+#all-ebook .item-ferramenta .content-item{
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'Avant Garde Book BT';
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+#all-ebook .item-ferramenta .titulo-primeiro{
+    margin-top: 95px;    
+}
+
+#all-ebook .item-ferramenta .titulo-segundo{
+    margin-top: 70px;
+    text-align: right;    
+}
+
+#all-ebook .item-ferramenta .content-segundo{
+    text-align: right;    
+}
+
+#disposicao{
+    padding: 50px 0;
+}
+
+#disposicao .hora{
+    color: #000;
+    font-size: 45px;
+    font-family: 'Avant Garde Demi BT';
+    margin-bottom: 0;     
+    text-align: center;
+    line-height: 40px;
+}
+
+#disposicao .text-x{
+    color: #000;
+    font-size: 45px;
+    font-family: 'Avant Garde Demi BT';    
+    text-align: center;
+}
+
+#disposicao .text-x img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 10px auto 0;
+}
+
+#disposicao .text-x.primeiro-x{
+    margin-top: 70px;
+}
+
+#disposicao .seta{
+    position: absolute;
+    right: -60px;
+    bottom: 200px;    
+}
+
+#disposicao .item-melhoria{
+    color: #000;
+    font-size: 50px;
+    font-family: 'Avant Garde Demi BT';  
+    margin-left: 80px;   
+    margin-bottom: -10px;
+}
+
+#disposicao .item-melhoria img{
+    display: inline-block;
+    margin-top: -15px;
+}
+
+#disposicao .item-melhoria.item-melhoria-primeiro{
+    margin-top: 30px;
+}
+
+#disposicao .text-caminho{
+    color: #000;
+    font-size: 20px;
+    font-family: 'Avant Garde Demi BT';      
+    margin-top: 50px;
+}
+
+#disposicao .text-caminho span{
+    background: #07ffeb;
+}
+
+#disposicao .caminho{
+    text-align: center;
+}
+
+#depoimentos{
+    background: #000;
+    padding: 80px 0;
+}
+
+#depoimentos .carousel-cell{
+    width: 30%;
+    margin: 0 25px;
+    background: #FFF;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    height: 450px;
+}
+
+#depoimentos .carousel-cell p.nome{
+    color: #000;
+    font-size: 20px;
+    font-family: 'Avant Garde Demi BT';      
+}
+
+#depoimentos .carousel-cell p.content-depoimento{
+    color: #000;
+    font-size: 14px;
+    font-family: 'Avant Garde Book BT';       
+}
+
+
+.formulario{
+    margin-top: -25px;
+}
+
+.formulario form input{
+    width: 100%;
+    height: 53px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #908f8f;
+    padding-left: 10px;    
+    font-size:  18px;
+    font-family: 'amsipro-xlight';
+}
+
+.formulario form button{
+    cursor: pointer;
+    background: #0ed5d2;
+    font-family: 'amsipro-ultra';
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    border: none;
+    height: 60px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.formulario form button span{
+    color: #F00;
+}
+
+.formulario p{
+    text-align: center;
+    color: #F00;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'amsipro-xlight';
+}
+
+#sobre-st{
+    background: #222222;
+    padding: 100px 0 0;
+}
+
+#sobre-st .sobre-stephan{
+    font-size: 45px;
+    font-family: 'amsipro-ultra';    
+    color: #FFF;
+    text-align: right;
+    line-height: 50px;
+}
+
+#sobre-st .sobre-stephan span{
+    color: #07ffeb;
+}
+
+#sobre-st .text-stephan{
+    color: #FFF;
+    text-align: right;
+}
+
+#sobre-st .text-stephan span{
+    color: #07ffeb;   
+}
+
+#sobre-st img{
+    max-width: 100%;
+}
+
+#sobre-st .redes{
+    text-align: right;
+}
+
+#sobre-st .cta-ebook{
+    position: absolute;
+    margin: -175px auto 0;
+    left: 0;
+    right: 0;
+    text-align: center;    
+}
+
+#sobre-st .redes a{
+    margin-left: 10px;
+}
+
+#whatsapp{
+    background: url(../images/bg-whats.jpg) no-repeat 0 0 transparent;
+    padding: 40px 0;
+}
+
+#whatsapp p{
+    font-family: 'amsipro-ultra';
+    font-size: 30px;
+    color: #FFF;
+    background: url(../images/bg-text-whats.png) no-repeat 0 0 transparent;
+    background-size: 44%;
+    padding: 10px 0 0;
+    text-shadow: 2px 1px black;
+    line-height: 33px;  
+}
+
+#whatsapp .conversa-whats{
+    text-align: center;
+}
+
+#conteudo{
+    background: #000;
+    padding: 100px 0;
+}
+
+.flickity-page-dots .dot{
+    background: #FFF !important;
+    opacity: 1 !important;
+}
+
+.flickity-page-dots .dot.is-selected{
+    background: #0ed5d2 !important;
+}
+
+#conteudo h2{
+    font-family: 'amsipro-ultra';
+    color: #FFF;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+#conteudo h2 span{
+    color: #000;
+}
+
+#conteudo h2 span:before{
+    background: #0ed5d2;
+    content: '';
+    width: 190px;
+    height: 50px;
+    padding: 1px;
+    position: absolute;
+    z-index: -1;
+    margin-left: -5px;
+    margin-top: 3px;
+}
+
+#conteudo p{
+    color: #FFF;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 50px; 
+    font-family: 'amsipro-xlight';  
+    max-width: 500px; 
+}
+
+#conteudo p strong{
+    font-family: 'amsipro-ultra';
+    color: #0ed5d2;
+    letter-spacing: 0px;
+}
+
+#conteudo video{
+    position: absolute;
+    width: 783px;
+    left: 180px;
+}
+
+#habitos{
+    padding: 80px 0;
+    background: #0ed5d2;
+    text-align: center;
+}
+
+#habitos h2{
+    color: #000;
+    font-family: 'amsipro-ultra';
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#habitos h2 span{
+    color: #FFF;
+}
+
+#habitos h2 span:before{
+    background: #000000;
+    content: '';
+    width: 93px;
+    height: 45px;
+    padding: 1px;
+    position: absolute;
+    z-index: -1;
+    margin-left: -5px;
+    margin-top: -3px;
+}
+
+#habitos .item{
+    display: inline-block;
+    margin: 0 30px;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+#habitos .item p{
+    font-family: 'amsipro-ultra';
+    color: #000;
+    font-size: 16px;
+    margin: 15px 0 0;
+    line-height: 18px;
+}
+
+#planejamento{
+    background: #000;
+    padding: 50px 0 0;    
+}
+
+#planejamento video{
+    position: absolute;
+    width: 705px;
+}
+
+#planejamento .mais{
+    font-family: 'amsipro-ultra';
+    color: #000;
+    font-size: 40px;
+    margin: 40px 0 0 80px;
+    display: block;  
+}
+
+#planejamento .mais:before{
+    background: #0ed5d2;
+    content: '';
+    width: 175px;
+    height: 40px;
+    padding: 1px;
+    position: absolute;
+    z-index: -1;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+
+#planejamento h2{
+    font-family: 'amsipro-ultra';
+    color: #FFF;
+    margin: 20px 0 0 80px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#planejamento h2 span{
+    color: #0ed5d2;
+}
+
+#planejamento p{
+    color: #FFF;
+    font-size: 20px;
+    margin: 20px 0 0 80px;
+    font-family: 'amsipro-xlight';      
+}
+
+#termo{
+    padding: 60px 0 80px;
+}
+
+#termo p{
+    font-size: 20px;
+    margin: 20px 0 0;
+    font-family: 'amsipro-xlight';
+    color: #000;
+}
+
+.modal{
+    background: #000000d1;
+}
+
+#form-dados .modal-dialog{
+    max-width: 860px;
+}
+
+#form-dados .modal-body{
+    text-align: center;
+    padding: 5px;
+}
+
+#form-dados .modal-body .image{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+#form-dados .modal-body .conteudo{
+    display: inline-block;
+    width: 59%;
+    padding: 20px 30px 10px 30px;
+}
+
+#form-dados .modal-body p{
+    font-family: 'amsipro-ultra';
+    color: #000;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+#form-dados .modal-body p.small{
+    font-family: 'amsipro-xlight';
+    color: #000;
+    font-size: 20px; 
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#form-dados .modal-body a.youtube{
+    color: #F00;
+    font-weight: bold;
+}
+
+#form-dados .modal-body a.instagram{
+    color: #7e34ff;
+    font-weight: bold;
+}
+
+button.close{
+    text-align: right;
+    padding-right: 15px !important;
+    padding-top: 15px !important;    
+    margin-bottom: -40px !important;
+    z-index: 1;
+}
+
+.formulario form input.error-form{
+    border: 2px solid #F00;
+}
+
+.desktop{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 1441px){
+    #top img.top-stephan{
+        width: 120%;
+    }
+
+    #top .passos img{
+        width: 70%;
+    }
+}
+
+@media (max-width: 1024px){
+    img{
+        max-width: 100%;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }    
+
+    #top{
+        background: url(../images/bg-top-mobile.jpg) no-repeat 0 0 #000;        
+        background-size: cover;
+    }
+
+    #top .passos img{
+        width: 100%;
+    }
+
+    #top .passos img.img-5passos{
+        margin-top: -220px;
+        margin-left: -20px;
+    }
+
+    #top p.aprtop{
+        margin: 20px;
+        font-size: 11px;
+        text-align: left;        
+    }
+
+    #top .preco-destaque {
+        margin: 50px 0 0 25px;
+    }
+
+    #top .cta-ebook {
+        margin-left: 0px;
+    }
+
+    br{
+        display: none;
+    }
+
+    #frase{
+        margin-top: 0px;
+    }
+
+    #frase #content-frase p.texto-frase{
+        font-size: 31px;
+        color: #000;
+        padding: 40px 0 20px;
+        width: 100%;
+        line-height: 30px;
+    }
+
+    #frase #content-frase p.texto-frase span {
+        font-size: 40px;
+    }
+
+    #frase #content-frase {
+        background: url(../images/Aristoteles.jpg) no-repeat left bottom transparent;
+        padding-bottom: 150px;
+    }    
+
+    #frase #content-frase p.nome {
+        width: 100%;
+    }
+
+    #all-ebook img.img-ebook{
+        margin-top: -50px;
+        margin-bottom: -100px;
+    }
+
+    #all-ebook .item p{
+        width: 85%;
+    }
+
+    #all-ebook .promo-ebook{
+        margin-top: 60px;
+    }
+
+    #all-ebook .item-ferramenta{
+        margin-bottom: 30px;        
+    }
+
+    #all-ebook .item-ferramenta .bg-ferramenta,
+    #all-ebook .item-ferramenta .bg-ferramenta-segundo{
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    #all-ebook .item-ferramenta .titulo-item{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #all-ebook .item-ferramenta .content-item{
+        text-align: center;   
+    }
+
+    #disposicao .hora,
+    #disposicao .text-x{
+        font-size: 40px;
+    }
+
+    #disposicao .text-ter{
+        margin-top: 50px;
+    }
+
+    #disposicao .item-melhoria{
+        font-size: 40px;
+        margin-left: 35px;
+    }
+
+    #disposicao .text-caminho{
+        font-size: 19px;
+    }
+
+    #depoimentos .carousel-cell{
+        width: 100%;
+    }
+
+    #habitos h2{
+        font-size: 39px;
+    }
+
+    #whatsapp p{
+        background: none;
+    }
+
+    #whatsapp{
+        background: url(../images/bg-whats.jpg) no-repeat 0 0 #f0e4d8;
+        text-align: center;
+    }
+
+    #whatsapp a{
+        margin-bottom: 50px;
+        display: inline-block;
+    }
+
+    #sobre-st .cta-ebook{
+        margin: -150px auto 0;
+    }
+
+    #sobre-st .sobre-stephan,
+    #sobre-st .text-stephan{
+        text-align: left;
+    }
+
+    #sobre-st .redes{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 375px){
+    #frase #content-frase p.texto-frase{
+        font-size: 29px;
+    }
+
+    #all-ebook .item p {
+        width: 84%;
+    }
+
+    #all-ebook .more-ebook .text-voce,
+    #all-ebook .more-ebook .text-voce span{
+        font-size: 26px;
+    }
+
+    #disposicao .hora, #disposicao .text-x {
+        font-size: 38px;
+    }
+
+    #disposicao .item-melhoria {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 360px){
+    #frase #content-frase p.texto-frase {
+        font-size: 27px;
+    }
+
+    #all-ebook .more-ebook .text-ferramentas{
+        font-size: 40px;   
+    }
+
+    #all-ebook .item-ferramenta .titulo-item{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 320px){
+    header p{
+        font-size: 14px;
+    }
+
+    #frase #content-frase p.texto-frase {
+        font-size: 24px;
+    }
+
+    #frase #content-frase p.texto-frase span {
+        font-size: 34px;
+    }
+
+    #all-ebook .item p {
+        width: 82%;
+    }
+
+    #all-ebook .promo-ebook p.text-melhore,
+    #all-ebook .promo-ebook p.text-atencao{
+        line-height: 20px;
+        font-size: 13px;
+    }
+
+    #all-ebook .promo-ebook p.text-tudo{
+        font-size: 26px;
+    }
+
+    #all-ebook .more-ebook .text-comprando{
+        font-size: 25px;
+    }
+
+    #all-ebook .more-ebook .text-voce, #all-ebook .more-ebook .text-voce span {
+        font-size: 22px;
+    }
+
+    #all-ebook .more-ebook .text-ferramentas {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    #all-ebook .item-ferramenta .titulo-item {
+        font-size: 25px;
+    }
+
+    #disposicao .hora, #disposicao .text-x {
+        font-size: 33px;
+    }
+
+    #disposicao .item-melhoria{
+        font-size: 30px;
+        margin-left: 5px;
+        margin-bottom: 0px;
+    }
+}

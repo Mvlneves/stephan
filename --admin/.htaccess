@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Stop end Enter Details"
+# AuthUserFile C:/xampp/htdocs/porte/signa/admin/.htpasswd
+AuthUserFile /home/agenc243/public_html/porte.com.br/lps/signa/admin/.htpasswd
+require valid-user
